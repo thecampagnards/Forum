@@ -1,0 +1,48 @@
+DB structure :
+
+	cats
+	{
+		c.id
+		c.name
+	}
+	
+	forums
+	{
+		f.id
+		f.name
+		f.desc
+		f.cat_id
+		f.lastpost_id
+	}
+	
+	topics
+	{
+		t.id
+		t.name
+		t.nb_views
+		t.author_id
+		t.forum_id
+		t.lastpost_id
+	}
+	
+	posts
+	{
+		p.id
+		p.text
+		p.date
+		p.author_id
+		p.topic_id
+	}
+	
+	members
+	{
+		m.id
+		m.name
+		m.mdp
+		m.email
+		m.lastconnexion
+		m.inscription (date)
+		m.ip
+	}
+	
+	

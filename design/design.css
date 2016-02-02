@@ -1,0 +1,92 @@
+body
+{
+	background-image: url('fond1.png');
+	min-width: 1280px;
+	min-height: 1024px;
+	font-family: 'Ropa Sans', sans-serif;
+}
+
+header
+{
+	text-align: center;
+}
+
+a
+{
+  	text-decoration: underline;
+ 	color: #F55A24;
+	text-decoration:none;
+}
+
+a:visited 
+{
+  	color: #FF9249;
+	text-decoration:none;
+}
+
+a:hover, a:focus, a:active 
+{
+  	text-decoration: none;
+  	color: grey;
+}
+
+section
+{
+	width: 100%;
+}
+
+#connexion_p input
+{
+	width: 80%;
+}
+
+#panel
+{
+	display: inline-block;
+	vertical-align: top;
+	padding: 5px;
+	width: 10%;
+	background-image: url('fond3.png');
+	border-width: 3px;
+	border-color: grey;
+	border-style: outset;
+	overflow: auto;
+	border-radius:11px;
+	box-shadow: 2px 2px 10px #000;
+	text-shadow: 1px 1px 9px black;
+	
+}
+
+#mid
+{
+	display: inline-block;
+	width: 75%;
+	background-image: url('fond2.png');
+	padding: 5px;
+	border-width: 3px;
+	border-color: grey;
+	border-style: outset;
+	box-shadow: 2px 2px 10px #000;
+}
+
+table
+{
+	background-image: url('fond4.png');
+	margin-bottom: 20px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td
+{
+	border-width: 3px;
+	border-color: grey;
+	border-style: ridge;
+	vertical-align: top;
+}
+
+.center
+{
+	text-align: center;
+	vertical-align: middle;
+}
